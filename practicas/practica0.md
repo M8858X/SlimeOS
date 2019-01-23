@@ -27,8 +27,7 @@ nombre y realiza una especifica tarea, llamese una consulta, creacion de archivo
 
 ## Commit
 https://github.com/M8858X/SlimeOS/commit/9370faf832c86a01a1f7736e673baf92172a8f63
-
-
+https://github.com/M8858X/SlimeOS/commit/799b900da6b38d0a2123bf411c7abd24e0bfb61a
 
 
 
