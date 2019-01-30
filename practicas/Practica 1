@@ -1,0 +1,29 @@
+## Objetivo
+Crear dos llamadas a sistema una para apagar y otra para reinicar.
+Y crear sus respectivos programas.
+
+## Herramientas
+Git
+Make
+Gcc
+
+## Conceptos
+1) Llamada a sistema operativo
+- La forma que el kernel (SO) da acceso al Hardware
+- Se implementan mediante interrupciones de software, ie, la aplicacion se interrumpe para que el kernel se ejecute.
+
+2) Modo Kernel
+- Es bit/registro que activa el CPU para acceder al Hardware
+- Solo hay un programa que se ejecuta con este bit, es el kernel
+
+3) Interrupciones
+- Es la forma que el Hardware interactua con el CPU
+
+## Que aprendi:
+
+
+
+## Link del commit:
+
+
+
