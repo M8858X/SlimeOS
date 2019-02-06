@@ -21,7 +21,11 @@ Gcc
 
 ## Que aprendi:
 
+Aprendi como realizar llamadas a l sistema, tambien que el Kernel es el unico que puede interactuar con el Hardware, esto para prevenir que
+los comandos que se manden a ejecutar no dañen el hardware, es la primera barrera de proteccion del hardware por asi decirlo.
 
+Aprendi como es que se manda apagar la maquina desde lineas de codigo y es cambiando el valor en una posicion de memoria. Esto puede apagar 
+o reiniciar la maquina.
 
 ## Link del commit:
 
