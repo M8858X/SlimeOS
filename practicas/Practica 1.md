@@ -29,5 +29,5 @@ o reiniciar la maquina.
 
 ## Link del commit:
 
-
+https://github.com/M8858X/SlimeOS/commit/69869b685cd966a79af84d8eb0063e5ee7a35d08
 
