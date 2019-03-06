@@ -25,13 +25,16 @@ gcc
 
 
 
+
 ## Url del Commit
 
+https://github.com/mmaxBA/SlimeOS/commit/b7e8253ca71868d85d015bd0a86392114c85a32f
 
 
 ## Como se relaciona con los conceptos anteriores
 
-
+Creacion de llamadas de sistema para asignar la prioridad a los distintos procesos que encuentras y consultar
+la prioridad de los procesos existentes.
 
 
 ## Examen
