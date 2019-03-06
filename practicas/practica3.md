@@ -35,8 +35,9 @@ git
   
   # Que aprendi:
   
-  
+  El funcionamiento del init y sobre los procesos, como cambia entre los distintos estados.
   
   # Url del commit:
 
+https://github.com/M8858X/SlimeOS/commit/27025c1ecf798a9dcda23b1fa9d3f91c69432bbb
 
