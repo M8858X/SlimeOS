@@ -323,8 +323,10 @@ void
 scheduler(void)
 {
   struct proc *p;
+  struct proc *hp;
   struct cpu *c = mycpu();
   c->proc = 0;
+  hp = 0;
   
   for(;;){
     // Enable interrupts on this processor.
@@ -335,7 +337,15 @@ scheduler(void)
     for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
       if(p->state != RUNNABLE)
         continue;
-
+    if(hp == 0){
+    hp = p;  
+    } else{
+      if(hp->prio <= p->prio){
+        hp = p;
+      }
+    }
+  }
+   p = hp;
       // Switch to chosen process.  It is the process's job
       // to release ptable.lock and then reacquire it
       // before jumping back to us.
@@ -349,12 +359,11 @@ scheduler(void)
       // Process is done running for now.
       // It should have changed its p->state before coming back.
       c->proc = 0;
-    }
+    
     release(&ptable.lock);
 
   }
 }
-
 // Enter scheduler.  Must hold only ptable.lock
 // and have changed proc->state. Saves and restores
 // intena because intena is a property of this
