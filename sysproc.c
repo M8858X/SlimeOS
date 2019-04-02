@@ -102,5 +102,21 @@ int
 sys_reboot(void)
 {
 	outb(0x64,0xFE);
+	
 	return 0;
+}
+int
+sys_date(void)
+{
+	struct rtcdate *r;
+	
+	argptr(1, (void*)&r, sizeof(*r));
+	
+	cmostime(r);
+	
+	cprintf("%d:%d:%d %d/%d/%d",r->hour,r->minute,r->second,r->day,r->month,r->year);
+		
+	return 0;
+	
+	
 }
