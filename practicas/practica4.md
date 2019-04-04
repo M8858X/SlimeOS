@@ -23,7 +23,8 @@ gcc
 
 ## Que aprendi
 
-
+Aprendi como se inicializan los procesos y el lifecycle de ellos, ademas de las partes que lo componen.
+Tambien aprendí como obre le planificador de procesos y como es que trabaja.
 
 
 ## Url del Commit
