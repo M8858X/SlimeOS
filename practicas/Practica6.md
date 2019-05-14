@@ -32,6 +32,8 @@ git
 
 # Url del commit:
 https://github.com/mmaxBA/SlimeOS/commit/2861e60c3fd0a4b47c3f24c9b5abcdcff753a714
+https://github.com/mmaxBA/SlimeOS/commit/bd513168185c1053865e909e6a670090fbde65a9
 
 
 # Que aprendi:  
+Apredi lo basico sobre hilos, desde como hacerlos a como manejarlos, pueden servir para distintas cosas y distintas situaciones. Tambien aprendi los distintos problemas que pueden llevar el usar los hilos, un ejemplo es el famoso Deadlock el cual hace que varios hilos esen esperando por recursos que nunca van a ser liberados.
